@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "定期練習",
+        "description": "毎週火曜日と木曜日に定期的な練習を行っています。初心者から経験者まで幅広く参加できます。",
+        "icon": "🎯",
+        "schedule": "毎週火・木 18:00-20:00",
+        "location": "体育館",
+        "category": "regular"
+    },
+    {
+        "id": 2,
+        "title": "ワークショップ",
+        "description": "月に一度、専門家を招いたワークショップを開催。スキルアップの機会を提供しています。",
+        "icon": "📚",
+        "schedule": "月1回土曜日",
+        "location": "セミナールーム",
+        "category": "special"
+    },
+    {
+        "id": 3,
+        "title": "交流会",
+        "description": "他のサークルや団体との交流会を定期的に開催。ネットワークを広げる機会になります。",
+        "icon": "🤝",
+        "schedule": "不定期",
+        "location": "各種会場",
+        "category": "social"
+    },
+    {
+        "id": 4,
+        "title": "初心者講座",
+        "description": "初めての方向けの基礎講座。丁寧に指導します。",
+        "icon": "🌱",
+        "schedule": "毎月第1日曜日",
+        "location": "練習室A",
+        "category": "beginner"
+    }
+]

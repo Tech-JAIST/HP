@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "春の新歓イベント",
+        "description": "新入生歓迎イベントを開催します。サークルの活動を体験できる絶好の機会です。",
+        "date": "2024-04-15",
+        "time": "13:00-17:00",
+        "location": "大学キャンパス内 体育館",
+        "status": "upcoming",
+        "capacity": 100,
+        "registrationRequired": true,
+        "tags": ["新歓", "初心者歓迎"]
+    },
+    {
+        "id": 2,
+        "title": "夏合宿",
+        "description": "3泊4日の夏合宿を実施。集中的な練習と親睦を深める機会です。",
+        "date": "2024-08-10",
+        "endDate": "2024-08-13",
+        "location": "山梨県 合宿施設",
+        "status": "upcoming",
+        "capacity": 40,
+        "registrationRequired": true,
+        "fee": 25000,
+        "tags": ["合宿", "スキルアップ"]
+    },
+    {
+        "id": 3,
+        "title": "秋の発表会",
+        "description": "一年間の成果を発表する機会。一般の方も観覧可能です。",
+        "date": "2024-11-20",
+        "time": "14:00-16:00",
+        "location": "市民ホール",
+        "status": "upcoming",
+        "capacity": 500,
+        "registrationRequired": false,
+        "tags": ["発表会", "一般公開"]
+    },
+    {
+        "id": 4,
+        "title": "冬の交流パーティー",
+        "description": "年末の締めくくりとして、メンバー同士の交流を深めるパーティーを開催。",
+        "date": "2024-12-22",
+        "time": "18:00-21:00",
+        "location": "学生会館3F",
+        "status": "upcoming",
+        "capacity": 60,
+        "registrationRequired": true,
+        "fee": 2000,
+        "tags": ["交流", "パーティー"]
+    }
+]

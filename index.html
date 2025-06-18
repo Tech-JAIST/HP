@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サークル名 - 公式ウェブサイト</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="nav-container">
+                <a href="#" class="logo">サークル名</a>
+                <button class="mobile-menu-toggle" aria-label="メニューを開く">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#about">私たちについて</a></li>
+                    <li><a href="#activities">活動内容</a></li>
+                    <li><a href="#events">イベント</a></li>
+                    <li><a href="#members">メンバー</a></li>
+                    <li><a href="#gallery">ギャラリー</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">サークル名へようこそ</h1>
+                <p class="hero-subtitle">ここにサークルのキャッチフレーズが入ります</p>
+                <a href="#join" class="btn btn-primary">参加する</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">私たちについて</h2>
+                <div class="content-block">
+                    <p>サークルの紹介文がここに入ります。活動の目的、理念、特徴などを説明します。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">活動内容</h2>
+                <div class="card-grid" data-component="activities">
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="section">
+            <div class="container">
+                <h2 class="section-title">イベント</h2>
+                <div class="event-list" data-component="events">
+                </div>
+            </div>
+        </section>
+
+        <section id="members" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">メンバー</h2>
+                <div class="member-grid" data-component="members">
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title">ギャラリー</h2>
+                <div class="gallery-grid" data-component="gallery">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">お問い合わせ</h2>
+                <div class="contact-content">
+                    <form class="contact-form" data-component="contact-form">
+                        <div class="form-group">
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">メールアドレス</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">メッセージ</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">送信</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 サークル名. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

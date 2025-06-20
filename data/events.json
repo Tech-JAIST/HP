@@ -1,52 +1,52 @@
 [
     {
         "id": 1,
-        "title": "春の新歓イベント",
-        "description": "新入生歓迎イベントを開催します。サークルの活動を体験できる絶好の機会です。",
-        "date": "2024-04-15",
-        "time": "13:00-17:00",
-        "location": "大学キャンパス内 体育館",
+        "title": "新歓LT会 - Welcome to tech circle!",
+        "description": "新入生・新メンバー歓迎のLT会。先輩メンバーが「chatbot開発のすすめ」「技術に頼らないハッカソン必勝法」など様々なテーマで発表します。",
+        "date": "2024-04-20",
+        "time": "16:00-18:00",
+        "location": "大学内セミナールーム",
         "status": "upcoming",
-        "capacity": 100,
-        "registrationRequired": true,
-        "tags": ["新歓", "初心者歓迎"]
+        "capacity": 50,
+        "registrationRequired": false,
+        "tags": ["新歓", "LT会", "初心者歓迎"]
     },
     {
         "id": 2,
-        "title": "夏合宿",
-        "description": "3泊4日の夏合宿を実施。集中的な練習と親睦を深める機会です。",
-        "date": "2024-08-10",
-        "endDate": "2024-08-13",
-        "location": "山梨県 合宿施設",
+        "title": "春のハッカソン",
+        "description": "24時間で大学生活を便利にするサービスを開発！プログラミング初心者も大歓迎。チーム分けは当日行います。",
+        "date": "2024-05-25",
+        "endDate": "2024-05-26",
+        "time": "10:00開始",
+        "location": "大学内コンピュータルーム",
         "status": "upcoming",
         "capacity": 40,
         "registrationRequired": true,
-        "fee": 25000,
-        "tags": ["合宿", "スキルアップ"]
+        "tags": ["ハッカソン", "開発", "チーム"]
     },
     {
         "id": 3,
-        "title": "秋の発表会",
-        "description": "一年間の成果を発表する機会。一般の方も観覧可能です。",
-        "date": "2024-11-20",
-        "time": "14:00-16:00",
-        "location": "市民ホール",
-        "status": "upcoming",
-        "capacity": 500,
-        "registrationRequired": false,
-        "tags": ["発表会", "一般公開"]
-    },
-    {
-        "id": 4,
-        "title": "冬の交流パーティー",
-        "description": "年末の締めくくりとして、メンバー同士の交流を深めるパーティーを開催。",
-        "date": "2024-12-22",
-        "time": "18:00-21:00",
-        "location": "学生会館3F",
+        "title": "技術交流会 with 他大学",
+        "description": "近隣大学のテックサークルとの交流会。お互いのプロジェクトを発表し合い、ネットワークを広げよう！",
+        "date": "2024-07-15",
+        "time": "14:00-17:00",
+        "location": "大学会議室",
         "status": "upcoming",
         "capacity": 60,
         "registrationRequired": true,
-        "fee": 2000,
-        "tags": ["交流", "パーティー"]
+        "tags": ["交流会", "ネットワーキング"]
+    },
+    {
+        "id": 4,
+        "title": "もくもく忘年会",
+        "description": "1年の締めくくりに、ゆるく集まってもくもく作業＆忘年会。今年の振り返りと来年の抱負を語ろう！",
+        "date": "2024-12-20",
+        "time": "15:00-20:00",
+        "location": "学生ラウンジ",
+        "status": "upcoming",
+        "capacity": 30,
+        "registrationRequired": true,
+        "fee": 1000,
+        "tags": ["もくもく会", "忘年会", "交流"]
     }
 ]
